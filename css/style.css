@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Philosopher&family=Playball&family=Playfair+Display:ital,wght@0,400;1,500&family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
+/*
+Fonts Used in the site choose what you need
+
+font-family: 'Lobster', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Playball', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    box-shadow: 3px 20px 24px -7px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 3px 20px 24px -7px rgba(0,0,0,0.19);
+    -moz-box-shadow: 3px 20px 24px -7px rgba(0,0,0,0.19);
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+nav a{
+    font-weight: 20px;
+}
+
+
+/* Home Design */
+
+/* Mid Layer Design */
+.MidLayer h1{
+    text-align: center;
+     padding-top: 20px;
+}
+
+.MidLayer strong{
+    color: #e60000;
+}
+
+/* Second Section */
+#second{
+    /* color: white; */
+    /* background: #e60000; */
+    min-height: 300px;
+    padding: 10px;
+}
+
+#second h2{
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 0.2px;
+    text-decoration: underline;
+}
+
+#second p{
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.SecondLayerInnerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SecondLayerInnerBox a{
+    background: #e60000;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    letter-spacing: 0.2px;
+}
+
+.SecondLayerInnerBox a:hover{
+    background: black;
+    color: white;
+    transform: scale(1.15);
+}
+
+
+/* Third Layer Deisgn */
+.thirdSection{
+    padding: 10px;
+}
+.thirdSection h1{
+    text-align: center;
+    color: #e60000;
+}
+
+.SolutionCardDesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.SolutionCardDesign h4{
+    color: #e60000;
+}
+.SolutionCardDesign p{
+    font-weight: 500;
+}
+
+.SolutionCardDesign:hover{
+    border: 1px solid #868686;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:576px){
+    .thirdSection .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .SolutionCardDesign{
+        width: 100%;
+        padding: 0px;
+        padding-top: 10px;
+    }
+}
