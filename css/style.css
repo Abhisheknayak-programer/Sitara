@@ -215,3 +215,97 @@ nav a{
         margin-bottom: 20px;
     }
 }
+
+
+/* sixth Layer design */
+.sixth{
+    padding: 30px 0px;
+    min-height: 300px;
+}
+
+.sixth h1{
+    text-align: center;
+    color: #e60000;
+}
+
+.sixth .TestiMonialCardDesign{
+    box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+    -moz-box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+    min-height: 250px;
+    padding: 10px;
+    text-align: center;
+}
+
+.sixth .TestiMonialCardDesign img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:576px){
+    .sixth .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .sixth .TestiMonialCardDesign{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+/* Footer Design */
+footer{
+    min-height: 200px;
+    padding-top: 30px;
+    padding-bottom:10px ;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2px;
+}
+
+footer h3, footer h5{
+    text-decoration: underline;
+}
+
+footer .footerPartition{
+    display: flex;
+    flex-direction: column;
+}
+
+footer a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #e60000;
+}
+
+footer .lastParaFooter{
+    text-align: center;
+}
+
+@media only screen and (max-width:576px){
+    footer .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .footerPartition{
+        margin-bottom: 10px;
+    }
+}
