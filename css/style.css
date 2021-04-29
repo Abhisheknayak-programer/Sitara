@@ -309,3 +309,318 @@ footer .lastParaFooter{
         margin-bottom: 10px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+/* About Section Design */
+
+/* About First Section Design */
+.AboutFirstSection .AboutFrontImg{
+    background: url("https://images.pexels.com/photos/2467506/pexels-photo-2467506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")center center/cover;
+    width: 100%;
+    height: 87vh;
+}
+
+
+/* About Second Section Design */
+.AboutSecondSection{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 0.2px;
+}
+
+.AboutSecondSection h1{
+    color: #e60000;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.AboutSecondSection p{
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+
+@media only screen and (max-width:786px) {
+    .AboutFirstSection .AboutFrontImg{
+        background: url("https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")center center/cover;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .AboutSecondSection h1{
+        padding: 0px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+/* About Third Section Design */
+.AboutThirdSection{
+    min-height: 50vh;
+    padding: 30px 0px;
+}
+
+.AboutThirdSectionPartition-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.AboutThirdSectionPartition-1 h1{
+    color: #e60000;
+}
+
+.AboutThirdSectionPartition-1 p{
+    text-align: center;
+}
+
+.AboutThirdSectionPartition-1 p{
+    font-family: 'Philosopher', sans-serif;
+}
+
+.AboutThirdSectionPartition-2{
+    overflow: hidden;
+}
+
+.AboutThirdSectionPartition-2{
+    border-radius: 20px;
+}
+
+.AboutThirdSectionPartition-2 img{
+    width: 100%;
+    border-radius: 20px;
+    height: 400px;
+    transition: all 1s ease;
+}
+
+.AboutThirdSectionPartition-2 img:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+@media only screen and (max-width:576px){
+    .AboutThirdSection .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+.AboutThirdSectionPartition-2 img{
+    height: 300px;
+}
+}
+
+
+
+
+/* About Third Section Design */
+.AboutfourthSection{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 0.2px;
+}
+
+.AboutfourthSection h1{
+    color: #e60000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.AboutfourthSection p{
+    text-align: center;
+}
+
+.AboutfourthSection p,li{
+    font-family: 'Philosopher', sans-serif;
+}
+
+.AboutQualityCardDesign-1,.AboutQualityCardDesign-2,.AboutQualityCardDesign-3{
+    box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+    -moz-box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+}
+
+.AboutQualityCardDesign-1 .ContentQuality,.AboutQualityCardDesign-2 .ContentQuality,.AboutQualityCardDesign-3 .ContentQuality{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.AboutQualityCardDesign-1 .imgHolder h4,.AboutQualityCardDesign-2 .imgHolder h4,.AboutQualityCardDesign-3 .imgHolder h4{
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    background: #e60000;
+}
+
+.AboutQualityCardDesign-1 .imgHolder{
+    background: url("../images/About/About5.jpg")center center/cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.AboutQualityCardDesign-2 .imgHolder{
+    background: url("../images/About/About6.jpg")center center/cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.AboutQualityCardDesign-3 .imgHolder{
+    background: url("../images/About/About7.jpg")center center/cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+}
+
+
+@media only screen and (max-width:576px){
+    .AboutfourthSection .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .AboutfourthSection .row .col{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Contact Design */
+.ContactFirstSection{
+    /* background: url("../images/Contact/Contact\ us.jpg")center center/cover; */
+    background: radial-gradient(100% 225% at 100% 0%, #FF0000 0%, #000000 100%), linear-gradient(236deg, #00C2FF 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 0%, #CDFFEB 36%, #009F9D 36%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
+    background-blend-mode: overlay, hard-light, normal;
+    min-height: 87vh;
+}
+.ContactFirstSection .ContactFirstRow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        letter-spacing: 0.2px;
+        padding: 20px;
+        color: white;
+
+}
+
+.ContactFirstSection h1{
+    color: #e60000;
+}
+
+.ContactDetailBox{
+    padding: 50px;
+    letter-spacing: 0.2px;
+}
+
+.innerContactIconBox{
+    color: white;
+}
+
+.innerContactIconBox img{
+    margin: 20px;
+}
+
+.innerContactIconBox{
+    display: flex;
+}
+
+.innerContactIconBox img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.ContactBox{
+    background: white;
+    padding: 50px;
+}
+
+.ContactBox h2{
+    color: #e60000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.ContactBox form{
+    display: flex;
+    flex-direction: column;
+}
+
+.ContactBox input,.ContactBox textarea{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 10px;
+}
+
+.ContactBox button{
+    width: 20%;
+    padding: 5px 0px;
+    background: #e60000;
+    color: white;
+}
+
+
+@media only screen and (max-width:576px){
+    .ContactSecondRow_MAIN{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ContactFirstSection{
+    background: url("../images/Contact/Contact\ us.jpg")center center/cover;
+    }
+    .ContactFirstSection h1,.ContactFirstRow p,.ContactDetailBox p{
+        color: white;
+        color: #000000;
+    }
+    .ContactDetailBox{
+        padding: 10px;
+    }
+
+}
