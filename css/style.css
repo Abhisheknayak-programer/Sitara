@@ -32,15 +32,28 @@ nav a{
 
 
 /* Home Design */
+@media only screen and (min-width:1000px){
+    #first .owl-carousel .item img{
+        width: 100%;
+        height: 85vh;
+    }
+}
+
 
 /* Mid Layer Design */
 .MidLayer h1{
     text-align: center;
-     padding-top: 20px;
+    padding: 20px;
 }
 
 .MidLayer strong{
     color: #e60000;
+}
+
+@media only screen and (max-width:576px) {
+    .MidLayer h1{
+        padding: 10px;
+    }
 }
 
 /* Second Section */
@@ -218,7 +231,7 @@ nav a{
 
 
 /* sixth Layer design */
-.sixth{
+/* .sixth{
     padding: 30px 0px;
     min-height: 300px;
 }
@@ -254,7 +267,7 @@ nav a{
     .sixth .TestiMonialCardDesign{
         margin-bottom: 30px;
     }
-}
+} */
 
 
 
