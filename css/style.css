@@ -786,4 +786,31 @@ footer .lastParaFooter{
 
 
 
-/*  */
+/*Credit Society Design*/
+.CreditSociety{
+    background: url("../images/CrSoft/Crsoft.jpg")center center/cover;
+    min-height: 100vh;
+}
+
+
+/* Housing Design */
+.Housing-society{
+    background: url("../images/Housing\ image.jpg")center center/cover;
+}
+
+@media only screen and (max-width:576px){
+    .Housing-society{
+        min-height: 75px;
+    }
+}
+
+/* Employee Society */
+.Employee-Society{
+    background: url("../images/Emp\ soft\ image.jpg")center center/cover;
+}
+
+@media only screen and (max-width:576px){
+    .Employee-Society{
+        min-height: 75px;
+    }
+}
