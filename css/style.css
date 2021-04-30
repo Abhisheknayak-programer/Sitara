@@ -270,7 +270,26 @@ nav a{
 } */
 
 
+.FourthLayerContent h1{
+    margin-bottom: 40px;
+}
 
+
+.ListStyle li{
+    font-size: 25px;
+    text-align: center;
+    list-style: none;
+}
+
+@media only screen and (max-width:576px){
+    .FourthLayerContent h1{
+        margin-bottom: 20px;
+    }
+
+    .ListStyle li{
+        font-size: 15px;
+    }
+}
 
 
 /* Footer Design */
