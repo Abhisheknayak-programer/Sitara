@@ -962,3 +962,205 @@ footer .lastParaFooter{
 
 
 /* Education Design */
+
+.Education_Section_1 .row{
+    padding: 50px 0px;
+}
+
+.Education_Section_1 .row h1{
+    text-align: center;
+    margin: 20px;
+    color: #e60000;
+}
+
+.Education_Section_1 .row .EduContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Education_Section_1 .row .EduContent a{
+    padding: 10px 20px;
+    background: #e60000;
+    color: white;
+    text-decoration: none;
+}
+
+.Education_Section_1 .row .EduContent a:hover{
+    background: black;
+}
+
+.Education_Section_1 .row .EduContent p{
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+
+@media only screen and (max-width:576px){
+    .Education_Section_1 .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 30px 0px;
+        box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+        -webkit-box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+        -moz-box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+/* BANKING SERVICES */
+
+.BankingServiceSection{
+    padding: 20px 0px;
+}
+
+.BankingServiceSection .row{
+    min-height: 75vh;
+    padding: 50px 0px;
+}
+
+.BankingServiceSection h1{
+    color: #e60000;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.BankingServiceSection .BankingServiceImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BankingServiceSection .BankingServiceImg img{
+    height: 100%;
+}
+
+.BankingServiceSection .BankingServiceContent strong{ 
+    color: #e60000;
+}
+
+.BankingServiceSection .BankingServiceContent{
+    letter-spacing: 0.2px;
+}
+
+.BankingServiceSection .BankingServiceContent a{
+    text-decoration: none;
+    color: white;
+    background: #e60000;
+    padding: 10px 20px;
+}
+
+.BankingServiceSection .BankingServiceContent ul {
+    margin-bottom: 30px;
+}
+
+.BankingServiceSection .BankingServiceContent a:hover{
+    background: black;
+}
+
+.BankingServiceContent-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width:576px){
+    .BankingServiceSection .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+   }
+
+   .BankingServiceImg img{
+    margin-bottom: 10px;
+    }
+
+   .BankingServiceContent-2{
+       padding-top: 50px;
+   }
+}
+
+
+
+
+
+
+/* Data Services Design */
+.DataServicesFirstSection h1{
+    color: #e60000;
+    text-align: center;
+}
+
+.DataServicesFirstSection h2{
+    color: #e60000;
+}
+
+.DataServicesFirstSection p{
+    letter-spacing: 0.2px;
+}
+
+.DataServicesFirstSection a{
+    text-decoration: none;
+    color: white;
+    background: #e60000;
+    padding: 10px 20px;
+}
+
+.DataServicesFirstSection a:hover{
+    background: black;
+}
+
+
+@media only screen and (max-width:576px){
+    .DataServicesFirstSection .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+/* Consulting And Advisory  Design*/
+
+
+.ConsultingAndAdvisory h1{
+    color: #e60000;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.ConsultingAndAdvisory h2{
+    color: #e60000;
+}
+
+@media only screen and (max-width:576px){
+.ConsultingAndAdvisory .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ConsultingAndAdvisory img{
+    margin-bottom: 20px;
+}
+}
