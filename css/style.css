@@ -833,3 +833,132 @@ footer .lastParaFooter{
         min-height: 75px;
     }
 }
+
+
+
+
+/* Lams Design */
+.LamsFirstSection h1{
+    text-align: center;
+    color: #e60000;
+    margin-bottom: 30px;
+}
+
+.LamsImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.LamsImg img{
+    height: 100%;
+}
+
+.LamsContent{
+    letter-spacing: 0.2px;
+}
+
+.LamsSecondSection{
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.LamsSecondSection h1{
+    color: #e60000;
+    text-align: center;
+}
+
+.LamsSecondSection .LamsCard{
+    box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+    -moz-box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+    padding: 20px;
+    transition: all 0.7s ease;
+}
+
+
+
+.LamsSecondSection .LamsCard:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width:576px){
+    .LamsFirstSection .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .LamsImg {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .LamsFirstSection h1{
+        margin-bottom: 20px;
+    }
+    .LamsContent{
+        text-align: center;
+    }
+
+    .LamsSecondSection{
+        margin: 0px 20px;
+    }
+}
+
+
+
+
+/* Consulting Design Start */
+
+.ConsultingSection h1{
+    color: #e60000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ConsultingSection .consultingContent p{
+    letter-spacing: 0.2px;
+}
+
+.ConsultingSection .consultingContent a{
+    background: #e60000;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.ConsultingSection .consultingContent a:hover{
+    background: black;
+}
+
+@media only screen and (max-width:576px){
+    .ConsultingSection .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ConsultingSection h1{
+        margin-bottom: 10px;
+    }
+
+    .ConsultingSection img{
+        margin-bottom: 10px;
+    }
+    .consultingContent p{
+        text-align: center;
+    }
+}
+
+
+
+
+/* Education Design */
