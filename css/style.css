@@ -117,9 +117,13 @@ nav a{
     transition: all 0.2s ease;
 }
 
-.SolutionCardDesign h4{
+.SolutionCardDesign h4 a{
+    text-decoration: none;
     color: #e60000;
 }
+
+
+
 .SolutionCardDesign p{
     font-weight: 500;
 }
@@ -768,7 +772,7 @@ footer .lastParaFooter{
     -moz-box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
     padding: 20px;
     margin-bottom: 40px;
-    transform: skew(-3deg);
+    /* transform: skew(-3deg); */
     transition: all 0.7s ease;
 }
 
@@ -776,6 +780,7 @@ footer .lastParaFooter{
     background: black;
     color: white;
     cursor: pointer;
+    transform: scale(1.15);
 }
 
 
@@ -796,6 +801,9 @@ footer .lastParaFooter{
         align-items: center;
         flex-direction: column;
         margin: 0px 10px;
+    }
+    .PacsCardDesign:hover{
+        transform: scale(1.05);
     }
 }
 
@@ -1140,7 +1148,13 @@ footer .lastParaFooter{
 
 
 /* Consulting And Advisory  Design*/
+.ConsultingAndAdvisory .row{
+    padding: 40px 0px;
+}
 
+.ConsultingAndAdvisory p{
+    text-align: center;
+}
 
 .ConsultingAndAdvisory h1{
     color: #e60000;
@@ -1150,6 +1164,7 @@ footer .lastParaFooter{
 
 .ConsultingAndAdvisory h2{
     color: #e60000;
+    text-align: center;
 }
 
 @media only screen and (max-width:576px){
@@ -1158,9 +1173,16 @@ footer .lastParaFooter{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
+    -moz-box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
 }
 
 .ConsultingAndAdvisory img{
     margin-bottom: 20px;
+    display: none;
 }
 }
