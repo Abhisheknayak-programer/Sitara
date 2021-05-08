@@ -72,8 +72,14 @@ nav a{
 }
 
 #second p{
-    text-align: center;
+    text-align: justify;
     letter-spacing: 0.2px;
+}
+
+@media only screen and (max-width:576px){   
+#second p{
+    text-align: center;
+}
 }
 
 .SecondLayerInnerBox{
@@ -281,8 +287,8 @@ nav a{
 
 .ListStyle li{
     font-size: 25px;
-    text-align: center;
-    list-style: none;
+    /* text-align: center;
+    list-style: none; */
 }
 
 @media only screen and (max-width:576px){
@@ -875,6 +881,10 @@ footer .lastParaFooter{
     flex-direction: column;
 }
 
+.LamsFirstSection p{
+    text-align: justify;
+}
+
 .LamsSecondSection h1{
     color: #e60000;
     text-align: center;
@@ -1041,7 +1051,7 @@ footer .lastParaFooter{
 }
 
 .Education_Section_1 .row .EduContent p{
-    text-align: center;
+    text-align: justify;
     letter-spacing: 0.2px;
 }
 
@@ -1057,6 +1067,9 @@ footer .lastParaFooter{
         -webkit-box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
         -moz-box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.14);
         padding: 20px;
+    }
+    .Education_Section_1 .row .EduContent p{
+        text-align: center;
     }
 }
 
@@ -1081,6 +1094,10 @@ footer .lastParaFooter{
     color: #e60000;
     text-align: center;
     margin-bottom: 20px
+}
+
+.BankingServiceSection p{
+    text-align: justify;
 }
 
 .BankingServiceSection .BankingServiceImg{
